@@ -1,0 +1,31 @@
+# Dataset
+data/
+
+# Trained models
+models/*.keras
+models/*.h5
+models/*.weights.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
