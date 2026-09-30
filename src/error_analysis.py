@@ -92,8 +92,7 @@ def get_image_paths():
 
     paths = []
 
-    # IMPORTANT:
-    # Follow the same class order as image_dataset_from_directory
+
     for class_name in CLASSES:
 
         class_dir = os.path.join(TEST_DIR, class_name)
